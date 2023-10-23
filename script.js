@@ -36,3 +36,26 @@ const people = {
     console.log(cars[i].name);
     }
   }
+
+// program to take correct number from user else return try again
+while(true){
+  let u1 = parseInt(prompt('enter 26'));
+  if(u1 === 26){
+    break;
+  }
+  else{
+    alert('try again');
+  }
+}
+
+// find mean user input
+const findMean = (n1, n2, n3) => {
+  let sum = (n1 + n2 + n3) / 3;
+  console.log(sum);
+};
+
+const n1 = parseInt(prompt('enter n1'));
+const n2 = parseInt(prompt('enter n2'));
+const n3 = parseInt(prompt('enter n3'));
+
+findMean(n1, n2, n3);
