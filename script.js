@@ -59,3 +59,54 @@ const n2 = parseInt(prompt('enter n2'));
 const n3 = parseInt(prompt('enter n3'));
 
 findMean(n1, n2, n3);
+
+
+const niggas = [
+  {
+    name: 'sameer',
+    scale: 7,
+  },
+  {
+    name: 'adarsh',
+    scale: 8,
+  },
+  {
+    name: 'ajit',
+    scale: 8.6,
+  },
+  {
+    name: 'aashish',
+    scale: 8.5,
+  },
+  {
+    name: 'ajay',
+    scale: 9,
+  },
+];
+
+for (let nigga in niggas) {
+  if (niggas[nigga].scale > 8) {
+    console.log(niggas[nigga].name);
+  }
+}
+
+const arr2 = Array(8).fill('nigga');
+console.log(arr2)
+
+const arr1 = ['anti-niigga1','anti-nigga2','ar12', 'ar13']
+
+console.log(arr1.concat(arr2))
+
+// joining array elements inside itself
+console.log(arr1.join(' + '))
+
+// copies all elem in new array except first
+console.log(arr1.slice(1))
+
+// first and last index is not included
+console.log(arr1.slice(1,3))
+
+// splice method 3 args
+.splice(0,1)
+
+
